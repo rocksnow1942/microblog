@@ -1,0 +1,247 @@
+# Chinese translations for PROJECT.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-08-14 22:40-0700\n"
+"PO-Revision-Date: 2019-08-07 22:54-0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: app/__init__.py:27
+msgid "Please log in to access this page."
+msgstr "麻烦登录了再看。"
+
+#: app/forms.py:8 app/forms.py:15 app/forms.py:33
+msgid "Username"
+msgstr "用户名"
+
+#: app/forms.py:9 app/forms.py:17 app/forms.py:55
+msgid "Password"
+msgstr "密码"
+
+#: app/forms.py:10
+msgid "Remember Me"
+msgstr "记住我"
+
+#: app/forms.py:11 app/templates/login.html:5
+msgid "Sign In"
+msgstr "登录"
+
+#: app/forms.py:16 app/forms.py:51
+msgid "Email"
+msgstr "邮箱"
+
+#: app/forms.py:18
+msgid "Repeat Password"
+msgstr "重复密码"
+
+#: app/forms.py:20 app/templates/register.html:6
+msgid "Register"
+msgstr "注册"
+
+#: app/forms.py:34
+msgid "About me"
+msgstr "关于我"
+
+#: app/forms.py:35 app/forms.py:48
+msgid "Submit"
+msgstr "提交"
+
+#: app/forms.py:47
+msgid "Say something"
+msgstr "说点啥"
+
+#: app/forms.py:52 app/forms.py:57
+msgid "Request Password Reset"
+msgstr "请求重置密码"
+
+#: app/forms.py:56
+msgid "Repeat password"
+msgstr "重复密码"
+
+#: app/routes.py:45
+msgid "Your post is now live@!"
+msgstr "你的帖子发表了！"
+
+#: app/routes.py:67
+msgid "Invalid username or password"
+msgstr "无效用户名或密码"
+
+#: app/routes.py:94
+msgid "Congrats, you are now registered."
+msgstr "恭喜，你注册成了。"
+
+#: app/routes.py:122
+msgid "Your Changes have been saved."
+msgstr "你的改动已经被保存了。"
+
+#: app/routes.py:135 app/routes.py:150
+#, python-format
+msgid "User %(username)s not found."
+msgstr "用户 %(username)s 不存在。"
+
+#: app/routes.py:138
+msgid "you cannot follow yourself!"
+msgstr "你咋能关注你自己呢？"
+
+#: app/routes.py:142
+#, python-format
+msgid "you are now following %(username)s!"
+msgstr "你在关注 %(username)s 了！"
+
+#: app/routes.py:153
+msgid "you cannot unfollow yourself!"
+msgstr "你不能不关注你自己。"
+
+#: app/routes.py:157
+#, python-format
+msgid "Your have unfollowed %(username)s."
+msgstr "你已经取消关注 %(username)s 了！"
+
+#: app/routes.py:182
+msgid "Check your email for the instructions to reset your password."
+msgstr "上你邮箱看看。"
+
+#: app/routes.py:199
+msgid "Your password has been reset."
+msgstr "你密码重设了。"
+
+#: app/templates/404.html:4
+msgid "File Not Found"
+msgstr "没找到文件。"
+
+#: app/templates/404.html:5 app/templates/500.html:6
+msgid "Back"
+msgstr "后退"
+
+#: app/templates/500.html:4
+msgid "An Un Expected error has occured"
+msgstr "出乎意料的错误。"
+
+#: app/templates/500.html:5
+msgid "The admin has been notified. sorry about the inconvenience!"
+msgstr "已经通知上面了，滚犊子。"
+
+#: app/templates/_post.html:16
+#, python-format
+msgid "%(username)s %(when)s said:"
+msgstr "%(username)s 曾经在 %(when)s 说过:"
+
+#: app/templates/_post.html:28
+msgid "Translate"
+msgstr "翻译"
+
+#: app/templates/base.html:7
+#, python-format
+msgid "%(title)s - Microblog"
+msgstr "%(title)s - 微博"
+
+#: app/templates/base.html:9
+msgid "Welcome to Microblog"
+msgstr "欢迎来到微博"
+
+#: app/templates/base.html:27
+msgid "Home"
+msgstr "家页"
+
+#: app/templates/base.html:28
+msgid "Explore"
+msgstr "探索"
+
+#: app/templates/base.html:32
+msgid "Login"
+msgstr "登录"
+
+#: app/templates/base.html:34
+msgid "Profile"
+msgstr "资料"
+
+#: app/templates/base.html:35
+msgid "Logout"
+msgstr "登出"
+
+#: app/templates/base.html:83
+msgid "Error: Could not contact server."
+msgstr "错误：无法连接服务器。"
+
+#: app/templates/edit_profile.html:5
+msgid "Edit Profile"
+msgstr "编辑个人资料"
+
+#: app/templates/index.html:5
+#, python-format
+msgid "Hi, %(username)s!"
+msgstr "你好，%(username)s "
+
+#: app/templates/index.html:17 app/templates/user.html:31
+msgid "Newer posts"
+msgstr "新点儿的帖子"
+
+#: app/templates/index.html:22 app/templates/user.html:36
+msgid "Older posts"
+msgstr "老点儿的帖子"
+
+#: app/templates/login.html:12
+msgid "New User?"
+msgstr "新用户？"
+
+#: app/templates/login.html:12
+msgid "Click to Register!"
+msgstr "点击注册！"
+
+#: app/templates/login.html:14
+msgid "Forgot Your Password?"
+msgstr "忘了密码？"
+
+#: app/templates/login.html:15
+msgid "Click to Reset It"
+msgstr "点击重设！"
+
+#: app/templates/reset_password.html:6
+#: app/templates/reset_password_request.html:6
+msgid "Reset Your Password"
+msgstr "重设密码"
+
+#: app/templates/user.html:8
+msgid "User"
+msgstr "用户"
+
+#: app/templates/user.html:10
+msgid "Last seen on"
+msgstr "上次光临是在"
+
+#: app/templates/user.html:11
+#, python-format
+msgid "%(count)d followers"
+msgstr "%(count)d 个粉丝"
+
+#: app/templates/user.html:11
+#, python-format
+msgid "%(count)d following"
+msgstr "%(count)d 个关注"
+
+#: app/templates/user.html:13
+msgid "Edit your profile"
+msgstr "编辑你资料"
+
+#: app/templates/user.html:15
+msgid "Follow"
+msgstr "粉丫"
+
+#: app/templates/user.html:17
+msgid "Unfollow"
+msgstr "取关"
+
+#~ msgid "%(username)s said %(when)s"
+#~ msgstr "%(username)s %(when)s 说过"
