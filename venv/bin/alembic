@@ -1,4 +1,4 @@
-#!/Users/hui/Documents/Scripts/flask/venv/bin/python
+#!/home/hui/microblog/venv/bin/python
 # EASY-INSTALL-ENTRY-SCRIPT: 'alembic==1.0.11','console_scripts','alembic'
 __requires__ = 'alembic==1.0.11'
 import re

@@ -27,7 +27,7 @@ def create_app(config_class=Config):
     app.config.from_object(config_class)
     babel.init_app(app)
     db.init_app(app)
-    migrate.init_app(app)
+    migrate.init_app(app,db)
     mail.init_app(app)
     bootstrap.init_app(app)
     moment.init_app(app)
