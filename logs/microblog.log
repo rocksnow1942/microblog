@@ -116,3 +116,5 @@ Traceback (most recent call last):
   File "/Users/hui/Documents/Scripts/flask/venv/lib/python3.7/site-packages/werkzeug/routing.py", line 2020, in build
     raise BuildError(endpoint, values, method, self)
 werkzeug.routing.BuildError: Could not build url for endpoint 'user' with values ['username']. Did you mean 'main.user' instead?
+2019-08-17 18:34:59,022 INFO: Microblog startup [in /Users/hui/Documents/Scripts/flask/app/__init__.py:76]
+2019-08-17 18:35:06,347 INFO: Microblog startup [in /Users/hui/Documents/Scripts/flask/app/__init__.py:76]
