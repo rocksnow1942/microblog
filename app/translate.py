@@ -8,4 +8,4 @@ def translate(text,source_language,dest_language):
     time.sleep(1)
     return text[::-1]
  
- 
+a = []
