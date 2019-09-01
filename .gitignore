@@ -27,7 +27,8 @@ pip-log.txt
 .coverage
 .tox
 nosetests.xml
-
+*.vscode
+*.code-workspace
 # Translations
 *.mo
 
