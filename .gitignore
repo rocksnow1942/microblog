@@ -41,6 +41,5 @@ venv
 logs
 app.db
 microblog.log*
-*.log
 
 migrations
