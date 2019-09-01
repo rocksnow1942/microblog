@@ -69,7 +69,7 @@ def create_app(config_class=Config):
         ))
         file_handler.setLevel(logging.ERROR)
         app.logger.addHandler(file_handler)
-        app.logger.setLevel(logging.ERROR)
+        app.logger.setLevel(logging.INFO)
         app.logger.info('Microblog startup')
 
     return app
