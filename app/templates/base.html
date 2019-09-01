@@ -73,15 +73,14 @@
 
 
 
-
 {% block scripts %}
+
     {{ super() }}
     {{ moment.include_moment() }}
     {{ moment.lang(g.locale) }}
-
     <script>
         function translate(sourceElem, destElem, sourceLang,destLang) {
-            $(destElem).html('<img src="{{ url_for('static',filename='loading.gif')}}">');
+            $(destElem).html('<img src="{{ url_for("static", filename="loading.gif")}}">');
             $.post('/translate',{
                 text:$(sourceElem).text(),
                 source_language: sourceLang,
@@ -93,7 +92,7 @@
                 ;
             });
 
-        }
+        };
 
         function set_message_count(n) {
             $('#message_count').text(n);
@@ -164,6 +163,6 @@
             }, 5000);
         });
         {% endif %}
-
-    </script>
+</script>
+   
 {% endblock %}
