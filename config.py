@@ -17,6 +17,7 @@ class Config():
     POSTS_PER_PAGE = 5
     LANGUAGES = ['en','zh']
 
+    REDIS_URL = os.environ.get('REDIS_URL') or 'redis://'
     # MAIL_SERVER = 'smtp.googlemail.com'
     # MAIL_PORT = int(os.environ.get('MAIL_PORT') or 587)
     # MAIL_USE_TLS = os.environ.get('MAIL_USE_TLS') is not None
@@ -30,6 +31,6 @@ class Config():
     MAIL_USE_TLS = os.environ.get('MAIL_USE_TLS') is not None
     MAIL_USERNAME = os.environ.get('MAIL_USERNAME')
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
-    ADMINS = ['kanghui06@gmail.com']
+    ADMINS = ['rocksnow1942@gmail.com']
 
 # to run a fake server: python -m smtpd -n -c DebuggingServer localhost:8025

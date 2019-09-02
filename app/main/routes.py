@@ -170,6 +170,19 @@ def messages():
 @login_required
 def notifications():
     since = request.args.get('since',0.0, type=float)
+
     notifications= current_user.notifications.filter(
         Notification.timestamp>since).order_by(Notification.timestamp.asc())
-    return jsonify([{'name':n.name, 'data':n.get_data(),'timestamp':n.timestamp} for n in notifications])
+
+    return jsonify([{'name':n.name, 'data':n.get_data(),'timestamp':float(n.timestamp)} for n in notifications])
+
+
+@bp.route('/export_posts')
+@login_required
+def export_posts():
+    if current_user.get_task_in_progress('export_posts'):
+        flash(('An export task is currently in progress'))
+    else:
+        current_user.launch_task('export_posts', ('Exporting posts...'))
+        db.session.commit()
+    return redirect(url_for('main.user', username=current_user.username))
